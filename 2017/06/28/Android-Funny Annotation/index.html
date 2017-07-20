@@ -10,7 +10,7 @@
     
     <title>
         
-            Who am I？ | 
+            Android 注解有意思 | 
         
         MUFCRyan Personal Blog
     </title>
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="Ryan">
     <meta name="description" content="Like IT、MUFC、Friends">
-    <meta name="keywords" content="IT MUFC TRAVEL CHINA,IT MUFC Guitar Travel">
+    <meta name="keywords" content="IT MUFC TRAVEL CHINA">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -48,9 +48,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://mufcryan.github.io">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Who am I？ | MUFCRyan Personal Blog">
+    <meta property="og:title" content="Android 注解有意思 | MUFCRyan Personal Blog">
     <meta property="og:description" content="Like IT、MUFC、Friends">
-    <meta property="og:article:tag" content="IT MUFC Guitar Travel"> 
+    
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -229,7 +229,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#个人对注解的理解是一种说明，对于代码本身的、具有真正限制性的说明。此处只针对于-Android-本身固有的注解及其自定义的使用。"><span class="post-toc-number">1.</span> <span class="post-toc-text">个人对注解的理解是一种说明，对于代码本身的、具有真正限制性的说明。此处只针对于 Android 本身固有的注解及其自定义的使用。</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Android-固有注解"><span class="post-toc-number"></span> <span class="post-toc-text">Android 固有注解</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Java-注解已经有很多篇优秀文章讲解过了，此处不再赘述，想看的同学戳这里，这篇博客也参考了网上的相关资源，我所做的就是在代码证实际使用验证一下效果。下面简述其分类"><span class="post-toc-number">1.</span> <span class="post-toc-text">Java 注解已经有很多篇优秀文章讲解过了，此处不再赘述，想看的同学戳这里，这篇博客也参考了网上的相关资源，我所做的就是在代码证实际使用验证一下效果。下面简述其分类</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-Null-相关，此类注解-Android-中很常见，不再赘述"><span class="post-toc-number">2.</span> <span class="post-toc-text">1. Null 相关，此类注解 Android 中很常见，不再赘述</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-Resource-Type-相关：用于引用各相关资源时进行编译期检查，因各资源引用时都是整数值，通过该注解检查就能避免不小心引起的错误引用；命名上使用”资源类型名-Res”的方式，如：IntRes、AnimRes-等，具体如下："><span class="post-toc-number">3.</span> <span class="post-toc-text">2. Resource Type 相关：用于引用各相关资源时进行编译期检查，因各资源引用时都是整数值，通过该注解检查就能避免不小心引起的错误引用；命名上使用”资源类型名+Res”的方式，如：IntRes、AnimRes 等，具体如下：</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#自定义注解及其简单应用，此处以-IntRange-作为示例；自定义注解-PostType，作用是确定参数的整数范围，可以使用-int-值或对应的-int-常量，检查时只检查-int-值本身"><span class="post-toc-number"></span> <span class="post-toc-text">自定义注解及其简单应用，此处以 @IntRange 作为示例；自定义注解 @PostType，作用是确定参数的整数范围，可以使用 int 值或对应的 int 常量，检查时只检查 int 值本身</span></a>
 
         <!--
         <li class="mdl-menu__item">
@@ -265,7 +265,7 @@
         
     
             <p class="article-headline-p">
-                Who am I？
+                Android 注解有意思
             </p>
         </div>
 
@@ -284,7 +284,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Ryan</strong>
-        <span>Mar 30, 2017</span>
+        <span>Jun 28, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -308,7 +308,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/IT-MUFC-Guitar-Travel/">IT MUFC Guitar Travel</a>
+        
     </ul>
     
 
@@ -324,7 +324,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Who am I？&url=http://mufcryan.github.io//2017/03/30/Introduction/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Android 注解有意思&url=http://mufcryan.github.io//2017/06/28/Android-Funny Annotation/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 شارك على Weibo
             </li>
@@ -333,7 +333,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Who am I？&url=http://mufcryan.github.io//2017/03/30/Introduction/index.html&via=Ryan" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Android 注解有意思&url=http://mufcryan.github.io//2017/06/28/Android-Funny Annotation/index.html&via=Ryan" target="_blank">
             <li class="mdl-menu__item">
                 شارك على Twitter
             </li>
@@ -342,7 +342,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://mufcryan.github.io//2017/03/30/Introduction/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://mufcryan.github.io//2017/06/28/Android-Funny Annotation/index.html" target="_blank">
             <li class="mdl-menu__item">
                 شارك على Facebook
             </li>
@@ -351,7 +351,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://mufcryan.github.io//2017/03/30/Introduction/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://mufcryan.github.io//2017/06/28/Android-Funny Annotation/index.html" target="_blank">
             <li class="mdl-menu__item">
                 شارك على Google+
             </li>
@@ -360,7 +360,7 @@
 
     <!-- Share LinkedIn -->
     
-        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://mufcryan.github.io//2017/03/30/Introduction/index.html&title=Who am I？" target="_blank">
+        <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://mufcryan.github.io//2017/06/28/Android-Funny Annotation/index.html&title=Android 注解有意思" target="_blank">
             <li class="mdl-menu__item">
                 شارك على LinkedIn
             </li>
@@ -369,7 +369,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=MUFCRyan Personal Blog&title=Who am I？&summary=Like IT、MUFC、Friends&pics=http://mufcryan.github.io/img/avatar_ryan.jpg&url=http://mufcryan.github.io/2017/03/30/Introduction/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=MUFCRyan Personal Blog&title=Android 注解有意思&summary=Like IT、MUFC、Friends&pics=http://mufcryan.github.io/img/avatar_ryan.jpg&url=http://mufcryan.github.io/2017/06/28/Android-Funny Annotation/index.html" target="_blank">
             <li class="mdl-menu__item">
                 شارك على QQ
             </li>
@@ -387,8 +387,88 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>##1. 简介</p>
-<p>###关于我：<br>    个人：我是赵逢春，25，英文名Ryan，来源于曼联球员Ryan Giggs，目前从事Android开发，入行三年<br>    爱好：<br>        IT：从事Android三年，目前在北京常爸工作，主要为常爸APP迭代开发功能以及相关的需求评审和确定<br>        MUFC：红魔死忠粉，从08年开始逐渐爱上曼联，最初是因为C罗当年的逆天表现以及欧冠，后来就只是喜欢曼联本身；最遗憾的是没见过老爵爷，最希望的是去老特拉福德朝圣，能见到爵爷就好啦！<br>        Guitar：一直很喜欢欧美音乐，也很喜欢唱，尤其是Westlife、后街、Mariah Carey…无奈嗓音不好，从此踏上吉他的不归路，未完待续</p>
+        <h3 id="个人对注解的理解是一种说明，对于代码本身的、具有真正限制性的说明。此处只针对于-Android-本身固有的注解及其自定义的使用。"><a href="#个人对注解的理解是一种说明，对于代码本身的、具有真正限制性的说明。此处只针对于-Android-本身固有的注解及其自定义的使用。" class="headerlink" title="个人对注解的理解是一种说明，对于代码本身的、具有真正限制性的说明。此处只针对于 Android 本身固有的注解及其自定义的使用。"></a>个人对注解的理解是一种说明，对于代码本身的、具有真正限制性的说明。此处只针对于 Android 本身固有的注解及其自定义的使用。</h3><h2 id="Android-固有注解"><a href="#Android-固有注解" class="headerlink" title="Android 固有注解"></a>Android 固有注解</h2><h3 id="Java-注解已经有很多篇优秀文章讲解过了，此处不再赘述，想看的同学戳这里，这篇博客也参考了网上的相关资源，我所做的就是在代码证实际使用验证一下效果。下面简述其分类"><a href="#Java-注解已经有很多篇优秀文章讲解过了，此处不再赘述，想看的同学戳这里，这篇博客也参考了网上的相关资源，我所做的就是在代码证实际使用验证一下效果。下面简述其分类" class="headerlink" title="Java 注解已经有很多篇优秀文章讲解过了，此处不再赘述，想看的同学戳这里，这篇博客也参考了网上的相关资源，我所做的就是在代码证实际使用验证一下效果。下面简述其分类"></a>Java 注解已经有很多篇优秀文章讲解过了，此处不再赘述，想看的同学<a href="http://www.cnblogs.com/whoislcj/p/5671622.html" target="_blank" rel="external">戳这里</a>，这篇博客也参考了网上的相关资源，我所做的就是在代码证实际使用验证一下效果。下面简述其分类</h3><h3 id="1-Null-相关，此类注解-Android-中很常见，不再赘述"><a href="#1-Null-相关，此类注解-Android-中很常见，不再赘述" class="headerlink" title="1. Null 相关，此类注解 Android 中很常见，不再赘述"></a>1. Null 相关，此类注解 Android 中很常见，不再赘述</h3><ul>
+<li>@Nullable：可为 null</li>
+<li>@NonNull：不可为 null</li>
+</ul>
+<h3 id="2-Resource-Type-相关：用于引用各相关资源时进行编译期检查，因各资源引用时都是整数值，通过该注解检查就能避免不小心引起的错误引用；命名上使用”资源类型名-Res”的方式，如：IntRes、AnimRes-等，具体如下："><a href="#2-Resource-Type-相关：用于引用各相关资源时进行编译期检查，因各资源引用时都是整数值，通过该注解检查就能避免不小心引起的错误引用；命名上使用”资源类型名-Res”的方式，如：IntRes、AnimRes-等，具体如下：" class="headerlink" title="2. Resource Type 相关：用于引用各相关资源时进行编译期检查，因各资源引用时都是整数值，通过该注解检查就能避免不小心引起的错误引用；命名上使用”资源类型名+Res”的方式，如：IntRes、AnimRes 等，具体如下："></a>2. Resource Type 相关：用于引用各相关资源时进行编译期检查，因各资源引用时都是整数值，通过该注解检查就能避免不小心引起的错误引用；命名上使用”资源类型名+Res”的方式，如：IntRes、AnimRes 等，具体如下：</h3><ul>
+<li>AnimatorRes/AnimRes：Animator/Anim 资源类型</li>
+<li>AnyRes：任意资源类型</li>
+<li>ArrayRes：array 资源类型</li>
+<li>AttrRes：attr 资源类型</li>
+<li>BoolRes/IntegerRes/StringRes：Boolean/Integer/String 资源类型</li>
+<li>Dimen：dimen 资源类型</li>
+<li>ColorRes：color 资源类型，此外：希望通过 RGB 调色时可使用 @ColorInt</li>
+<li>DrawableRes：drawable 资源类型</li>
+<li>FrictionRes：friction 资源类型</li>
+<li>IdRes：id 资源类型</li>
+<li>InterpolatorRes：interpolator 资源类型</li>
+<li>LayoutRes：layout 资源类型</li>
+<li>MenuRes：menu 资源类型</li>
+<li>PluralsRes：plurals 资源类型</li>
+<li>RawRes：raw 资源类型</li>
+<li>StyleableRes/StyleRes：styleable/style 资源类型</li>
+<li>TransitionRes：transition 资源类型</li>
+<li>XmlRes：xml 资源类型</li>
+</ul>
+<p>引用错误的资源时 IDE 会给出提示，但不影响构建和部署</p>
+<p><img src="/img/Android-Funny Annotation/StringRes.png" alt=""></p>
+<p>###3. Thread 相关：可指定在何种线程中运行（Ps：代码中实际使用了一下并没有什么提示，不知道是什么鬼=_=）</p>
+<ul>
+<li>UIThread：UI 线程</li>
+<li>MainThread：主线程</li>
+<li>WorkerThread：子线程/工作线程</li>
+<li>BinderThread：绑定线程</li>
+</ul>
+<p>###4. 枚举相关：可指定默认的枚举类型，非指定类型（即便基本类型一致）入参编译不通过；使用 IntDef 时该种方式对于变量无能为力，只能传入指定参数；若想不检查变量，可使用 IntRange指定参数范围即可</p>
+<ul>
+<li>IntDef：int 枚举</li>
+<li>StringDef：string 枚举</li>
+</ul>
+<p>###5. 一定范围限制相关</p>
+<ul>
+<li>Size：限制集合、数组的大小和倍数以及字符串的长度</li>
+<li>IntRange：int 范围</li>
+<li>FloatRange：float 范围</li>
+</ul>
+<p>###6. Permission相关：@RequiresPermission</p>
+<ul>
+<li><p>指定方法需要的具体权限：</p>
+<pre><code>@RequiresPermission(Manifest.permission.INTERNET)
+</code></pre></li>
+<li><p>需要几个权限中的一种：anyOf</p>
+<pre><code>@RequiresPermission(anyOf = {Manifest.permission.INTERNET, Manifest.permission.CAMERA})
+</code></pre></li>
+<li><p>同时需要多个权限：allOf</p>
+<pre><code>@RequiresPermission(allOf = {Manifest.permission.INTERNET, Manifest.permission.CAMERA})
+</code></pre></li>
+<li><p>对于 intent 的权限可直接在其相应的常量字符串字段上标注权限需求</p>
+<pre><code>@RequiresPermission(android.Manifest.permission.BLUETOOTH)
+public static final String ACTION_REQUEST_DISCOVERABLE = &quot;android.bluetooth.adapter.action.REQUEST_DISCOVERABLE&quot;;
+</code></pre></li>
+<li><p>对于 ContentProvider 的权限，需要单独使用 @Read、@Write 来标注读、写的访问权限</p>
+<pre><code>@RequiresPermission.Read(@RequiresPermission(READ_HISTORY_BOOKMARKS))
+@RequiresPermission.Write(@RequiresPermission(WRITE_HISTORY_BOOKMARKS))
+public static final Uri BOOKMARKS_URI = Uri.parse(&quot;content://browser/bookmarks&quot;);
+</code></pre></li>
+</ul>
+<p>###7. 重写相关：@CallSuper，强制某一方法在重写时调用其父类方法，如 Activity 的 onCreate()；若为使用时未重写父类方法会给出提示</p>
+<pre><code>@CallSuper
+protected void onCreate(@Nullable Bundle savedInstanceState)
+</code></pre><p><img src="/img/Android-Funny Annotation/CallSuper.png" alt=""></p>
+<p>###8. 方法返回值相关：@CheckResult，希望提示调用者使用方法的返回值，调用者未使用时会给出提示</p>
+<pre><code>@CheckResult
+public Build setPostType(int type){
+      mIntent.putExtra(FeedPostActivity.TYPE_FEED_POST, type);
+      return this;
+}    
+</code></pre><p><img src="/img/Android-Funny Annotation/CheckResult.png" alt=""></p>
+<h2 id="自定义注解及其简单应用，此处以-IntRange-作为示例；自定义注解-PostType，作用是确定参数的整数范围，可以使用-int-值或对应的-int-常量，检查时只检查-int-值本身"><a href="#自定义注解及其简单应用，此处以-IntRange-作为示例；自定义注解-PostType，作用是确定参数的整数范围，可以使用-int-值或对应的-int-常量，检查时只检查-int-值本身" class="headerlink" title="自定义注解及其简单应用，此处以 @IntRange 作为示例；自定义注解 @PostType，作用是确定参数的整数范围，可以使用 int 值或对应的 int 常量，检查时只检查 int 值本身"></a>自定义注解及其简单应用，此处以 @IntRange 作为示例；自定义注解 @PostType，作用是确定参数的整数范围，可以使用 int 值或对应的 int 常量，检查时只检查 int 值本身</h2><p><img src="/img/Android-Funny Annotation/PostType.png" alt=""></p>
+<p>传入范围之外的值时 IDE 会提示，但是不影响运行</p>
+<p><img src="/img/Android-Funny Annotation/PostType-setPostType.png" alt=""></p>
+<p>使用常量值替代更利于阅读，效果同上</p>
+<p><img src="/img/Android-Funny Annotation/PostType-Constant.png" alt=""></p>
+<p>有什么想说的可以联系我，欢迎骚扰</p>
 
     
 
@@ -412,19 +492,19 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/03/30/Studio运行Java代码-main函数/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            أحدث
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2017/03/30/Studio运行Java代码-main函数/" id="post_nav-older" class="next-content">
+            أقدم
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 
